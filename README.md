@@ -1,4 +1,4 @@
-# JavaScript Bundling for Rails test again
+# JavaScript Bundling for Rails test 
 
 Use [Bun](https://bun.sh), [esbuild](https://esbuild.github.io), [rollup.js](https://rollupjs.org), or [Webpack](https://webpack.js.org) to bundle your JavaScript, then deliver it via the asset pipeline in Rails. This gem provides installers to get you going with the bundler of your choice in a new Rails application, and a convention to use `app/assets/builds` to hold your bundled output as artifacts that are not checked into source control (the installer adds this directory to `.gitignore` by default).
 
